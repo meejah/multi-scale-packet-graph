@@ -1,0 +1,13 @@
+Playing with nodebox, this is a horrifically CPU-intensive
+proof-of-conecpt bandwidth monitor which has multiple scales.
+
+This one just has two: "fast" samples of one per "however fast we can
+monitor" and "slow" of one pixel per 10 seconds. If you mess with the
+code, there's a few drawing options and such.
+
+A real implementation might want to use something like RRD, better
+monitoring, faster drawing. Perhaps I'm using nodebox in a really bad
+way...
+
+
+meejah at gmail . com
